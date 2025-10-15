@@ -14,4 +14,4 @@ function getCount(str) {
     return count;
 }
 
-getCount("abracadabra"); // 5
+console.log(getCount("abracadabra")); // 5
