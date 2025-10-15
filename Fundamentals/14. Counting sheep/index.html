@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./styles.css" />
+        <title>JavaScript Exercise | Codewars</title>
+    </head>
+    <body>
+        <h1>JavaScript Exercise – Counting sheep...</h1>
+        <p>
+            Consider an array/list of sheep where some sheep may be missing from
+            their place. We need a function that counts the number of sheep
+            present in the array (true means present).
+        </p>
+
+        <h3>Test Data</h3>
+        <p>
+            const sheep = [ [[]], [[undefined]], [[null]], [[false]], [[true]],
+            [[undefined,null,false,true]],
+            [[undefined,null,false,true,true,false,null,undefined]],
+            [[true,true,true,false,true,true,true,true,true,false,true,false,true,false,false,true,true,true,true,true,false,false,true,true]],
+            ]
+        </p>
+        <ul>
+            <li>countSheeps(sheep[0]) // 0</li>
+            <li>countSheeps(sheep[1]) // 0</li>
+            <li>countSheeps(sheep[2]) // 0</li>
+            <li>countSheeps(sheep[3]) // 0</li>
+            <li>countSheeps(sheep[4]) // 1</li>
+            <li>countSheeps(sheep[5]) // 1</li>
+            <li>countSheeps(sheep[6]) // 2</li>
+            <li>countSheeps(sheep[7]) // 17</li>
+        </ul>
+        <script src="script.js"></script>
+    </body>
+</html>
