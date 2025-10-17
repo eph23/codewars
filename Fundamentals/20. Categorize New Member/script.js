@@ -1,9 +1,8 @@
 "use strict";
 function openOrSenior(data) {
     let result = [];
-    
+
     for (let array of data) {
-        console.log(array[0], array[1]);
         if (array[0] >= 55 && array[1] > 7) {
             result.push("Senior");
         } else {
