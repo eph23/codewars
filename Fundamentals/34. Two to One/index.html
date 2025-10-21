@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link rel="stylesheet" href="./styles.css" />
+        <title>JavaScript Exercise | Codewars</title>
+    </head>
+    <body>
+        <h1>JavaScript Exercise – Two to One</h1>
+        <p>
+            Take 2 strings s1 and s2 including only letters from a to z. Return
+            a new sorted string (alphabetical ascending), the longest possible,
+            containing distinct letters - each taken only once - coming from s1
+            or s2.
+        </p>
+        <p>
+            Examples: a = "xyaabbbccccdefww" b = "xxxxyyyyabklmopq" longest(a,
+            b) -> "abcdefklmopqwxy" a = "abcdefghijklmnopqrstuvwxyz" longest(a,
+            a) -> "abcdefghijklmnopqrstuvwxyz"
+        </p>
+
+        <h3>Test Data</h3>
+        <ul>
+            <li>longest("aretheyhere", "yestheyarehere") // "aehrsty"</li>
+            <li>
+                longest("loopingisfunbutdangerous", "lessdangerousthancoding")
+                // "abcdefghilnoprstu"
+            </li>
+            <li>
+                longest("inmanylanguages", "theresapairoffunctions") //
+                "acefghilmnoprstuy"
+            </li>
+        </ul>
+        <script src="script.js"></script>
+    </body>
+</html>
